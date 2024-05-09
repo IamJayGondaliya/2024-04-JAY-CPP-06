@@ -24,7 +24,7 @@
 
     - Method overriding:
         - is a concept where we same named and parameters method in child class.
-        - class must be child(deriver).
+        - class must be child(derived).
         - name must be same.
         - parameters must be same.
 */

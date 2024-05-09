@@ -20,6 +20,7 @@ string PizzaSize::MS = "Monster (24 inch)";
 class Dominoz
 {
 public:
+    // Overload
     void pizza()
     {
         cout << "You have ordered Pizza..." << endl;
@@ -38,6 +39,7 @@ public:
 class Lapinoz : public Dominoz
 {
 public:
+    // Override
     void pizza()
     {
         cout << "---------Lapinoz------------" << endl;
