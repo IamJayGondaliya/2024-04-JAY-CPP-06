@@ -1,6 +1,44 @@
 #include <iostream>
 using namespace std;
 
+class A
+{
+public:
+    virtual void getA()
+    {
+        cout << "Class A" << endl;
+    }
+};
+
+class B : virtual public A
+{
+};
+
+class C : virtual public A
+{
+};
+
+class D : public B, public C
+{
+};
+
+class Data
+{
+private:
+    int d;
+
+public:
+    // Setter
+    void set(int d)
+    {
+        this->d = d;
+    }
+    void get()
+    {
+        cout << "Data: " << d << endl;
+    }
+};
+
 class Admin
 {
 private:
